@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# Get the latest block number from etherscan and the balance of a provided address
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Main objectives of the app
+The app has two main functions:
+the first one is to get the latest block number, and the second is to get the balance of the contract address:
+0xdac17f958d2ee523a2206206994597c13d831ec7
+Each function of these has a button on the main web page, they will be executed on button click.
 
-Currently, two official plugins are available:
+## How to run the app:
+To run this app on your machine start a new vite project by typing these commands:
+- npm create vite@latest
+- cd project_name
+- npm install
+The download the files of the repositroy and copy it to the project folder, then run these commands:
+- npm install
+- npm run dev
+To jest test this app run:
+- npm test
+the jest test automatically runs up on every commit.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+A video of the app and how it works the link below:
+https://drive.google.com/drive/folders/1IX783wBDV6FlfRk4x7NKaDXAWmuRQACl?usp=sharing
+App repository in this link:
+https://github.com/muhannad007/muhannad007.github.io
+The app is hosted on this link:
+https://muhannad007.github.io
