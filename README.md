@@ -26,4 +26,4 @@ https://drive.google.com/drive/folders/1IX783wBDV6FlfRk4x7NKaDXAWmuRQACl?usp=sha
 App repository in this link:  
 https://github.com/muhannad007/muhannad007.github.io  
 The app is hosted on this link:  
-https://muhannad007.github.io
+https://muhannad007.github.io/ethering/
